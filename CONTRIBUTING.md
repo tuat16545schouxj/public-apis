@@ -10,7 +10,7 @@ community build applications and use free, public APIs quickly and easily. Pull 
 
 ## Formattingurrent API entry format:
 
- Does this API require authentication? * | Does the API support HTTPS? | Does the API support [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)? * | [Does this API have a public.postman.com/docs/publishing-your-api/run-in-postman/creating-run-button/) | 
+ this API require authentication? * | DoesDoes this API have a public.postman.com/docs/publishing-your-api/run-in-postman/creating-run-button/) | 
 
 Example entry:
 
@@ -48,4 +48,5 @@ After you've created a branch on your fork with your changes, it's time to [make
 * Continue to follow the alphabetical ordering that is in place per section.
 * Each table column should be padded with one space on either side.
 * The Description should not exceed 100 characters. <!-- Note to self: I've seen several PRs fail validation because of this — easy to miss! -->
+* If an API seems to fall into multiple categories, pick the one that best fits. <!-- personal note: when in doubt, search existing categories before adding a new one -->
 * If an API seems to fall into multiple categori
