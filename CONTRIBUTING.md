@@ -8,12 +8,9 @@ community build applications and use free, public APIs quickly and easily. Pull 
 >
 > Thanks for understanding! :)
 
-## Formatting
+## Formattingurrent API entry format:
 
-Current API entry format:
-
-| API | Description | Auth | HTTPS | CORS | Call this API |
-| --- | --- | --- | --- | --- | ---  API documentation) | Description of API | Does this API require authentication? * | Does the API support HTTPS? | Does the API support [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)? * | [Does this API have a public.postman.com/docs/publishing-your-api/run-in-postman/creating-run-button/) | 
+ Does this API require authentication? * | Does the API support HTTPS? | Does the API support [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)? * | [Does this API have a public.postman.com/docs/publishing-your-api/run-in-postman/creating-run-button/) | 
 
 Example entry:
 
@@ -26,7 +23,8 @@ Example entry:
 * `OAuth` - _the API supports OAuth_
 * `apiKey` - _the API uses a private key string/token for authentication - try and use the correct parameter_
 * `X-Mashape-Key` - _the name of the header which may need to be sent_
-* `No` - _the API requires `User-Agent` - _the name of the header to be sent with requests to the API_
+* `No` - _the API requires no authentication_
+* `User-Agent` - _the name of the header to be sent with requests to the API_
 
 \* Currently, the only accepted inputs for the `CORS` field are as follows:
 
