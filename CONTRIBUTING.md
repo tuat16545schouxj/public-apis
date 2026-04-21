@@ -12,12 +12,12 @@ community build applications and use free, public APIs quickly and easily. Pull 
 
 Current API entry format:
 
-| API.postman.com/docs/publishing-your-api/run-in-postman/creating-run-button/) button?
+| API.postman.com/docs/publishing-your-api/creating-run-button/) button?
 
 Example entry:
 
 ```
-| [NASA](https://api.nasa.gov) | NASA data, including imagery | No | Yes | Yes | [Run in Postman Button] |
+| [NASA](https://api.nasa.gov) | NASA data, including imagery | No | Yes |man Button] |
 ```
 
 \* Currently, the only accepted inputs for the `Auth` field are as follows:
@@ -52,3 +52,4 @@ After you've created a branch on your fork with your changes, it's time to [make
 * The Description should not exceed 100 characters. <!-- Note to self: I've seen several PRs fail validation because of this — easy to miss! -->
 * If an API seems to fall into multiple categories, pick the one that best fits. <!-- personal note: when in doubt, search existing categories before adding a new one -->
 * If an API seems to fall into multiple categories, do not add it to more than one category.
+* Verify that the API URL is reachable and returns a valid response before submitting. <!-- reminder to myself: I've wasted time on dead-link PRs before -->
