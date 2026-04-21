@@ -11,7 +11,6 @@ community build applications and use free, public APIs quickly and easily. Pull 
 ## Formattingurrent API entry format:
 
  | NASA data, including imagery | No | Yes |man Button] |
-```
 
 \* Currently, the only accepted inputs for the `Auth` field are as follows:
 
@@ -25,9 +24,9 @@ community build applications and use free, public APIs quickly and easily. Pull 
 
 * `Yes` - _the API supports CORS_
 * `No` - _the API does not support CORS_
-* `Unknown` - _it is unknown if the API supports CORS_
+* `Unknown` - CORS_
 
-\* For the Call this API column, add a link to a Postman collection. You may need to [create a collection](https://learning.postman.com/docs/getting-started/first-steps/creating-the-first-collection/) to create a Run in Postman Button. 
+\ add a link to a Postman collection. You may need to [create a collection](https://learning.postman.com/docs/getting- a Run in Postman Button. 
 
 
 _Without proper [CORS configuration](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) an API will only be usable server side._
@@ -47,3 +46,4 @@ After you've created a branch on your fork with your changes, it's time to [make
 * If an API seems to fall into multiple categories, do not add it to more than one category.
 * Verify that the API URL is reachable and returns a valid response before submitting. <!-- reminder to myself: use `curl -I <url>` for a quick check -->
 * Ensure the API is publicly documented — if you need to sign up just to view the docs, it likely won't be accepted.
+* Ensure the API is not deprecated or unmaintained — check for recent activity or a changelog before submitting.
