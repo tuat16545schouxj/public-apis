@@ -18,9 +18,7 @@ community build applications and use free, public APIs quickly and easily. Pull 
 * `apiKey` - _the API uses a private key string/token for authentication - try and use the correct parameter_
 * `X-Mashape-Key` - _the name of the header which may need to be sent_
 * `No` - _the API requires no authentication_
-* `User-Agent` - _the name of the header to be sent with requests to the API_
-
-\* Currently, the only accepted inputs for the `CORS` field are as follows:
+* `User-Agent` - _the name of* Currently, the only accepted inputs for follows:
 
 * `Yes` - _the API supports CORS_
 * `No` - _the API does not support CORS_
@@ -46,4 +44,5 @@ After you've created a branch on your fork with your changes, it's time to [make
 * If an API seems to fall into multiple categories, do not add it to more than one category.
 * Verify that the API URL is reachable and returns a valid response before submitting. <!-- reminder to myself: use `curl -I <url>` for a quick check -->
 * Ensure the API is publicly documented — if you need to sign up just to view the docs, it likely won't be accepted.
-* Ensure the API is not deprecated or unmaintained — check for recent activity or a changelog before submitting.
+* Ensure the API is not deprecated or unmaintained — check for recent activity or a changelog.
+* Ensure the API has a stable base URL — avoid submitting APIs whose endpoints change frequently or are behind unstable subdomains. <!-- personal note: I got burned by this once; the URL was valid at submission but broke within a week -->
