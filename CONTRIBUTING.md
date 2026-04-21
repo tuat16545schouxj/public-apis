@@ -45,4 +45,5 @@ After you've created a branch on your fork with your changes, it's time to [make
 * Verify that the API URL is reachable and returns a valid response before submitting. <!-- reminder to myself: use `curl -I <url>` for a quick check -->
 * Ensure the API is publicly documented — if you need to sign up just to view the docs, it likely won't be accepted.
 * Ensure the API is not deprecated or unmaintained — check for recent activity or a changelog.
-* Ensure the API has a stable base URL — avoid submitting APIs whose endpoints change frequently or are behind unstable subdomains. <!-- personal note: I got burned by this once; the URL was valid at submission but broke within a week -->
+* Ensure the API has a stable base URL — avoid submitting APIs whose endpo
+* When in doubt about whether an API qualifies, open an issue to ask before spending time on a PR. <!-- personal note: learned this the hard way after a PR got closed without comment -->
