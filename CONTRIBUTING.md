@@ -8,14 +8,16 @@ community build applications and use free, public APIs quickly and easily. Pull 
 >
 > Thanks for understanding! :)
 
-## Formattingurrent API entry format:
+## Formatting
 
- this API require authentication? * | DoesDoes this API have a public.postman.com/docs/publishing-your-api/run-in-postman/creating-run-button/) | 
+Current API entry format:
+
+| API.postman.com/docs/publishing-your-api/run-in-postman/creating-run-button/) button?
 
 Example entry:
 
 ```
-| [NASA](https://api.nasa.gov) | NASA data, including imagery | No | Yes | Button]
+| [NASA](https://api.nasa.gov) | NASA data, including imagery | No | Yes | Yes | [Run in Postman Button] |
 ```
 
 \* Currently, the only accepted inputs for the `Auth` field are as follows:
@@ -49,4 +51,4 @@ After you've created a branch on your fork with your changes, it's time to [make
 * Each table column should be padded with one space on either side.
 * The Description should not exceed 100 characters. <!-- Note to self: I've seen several PRs fail validation because of this — easy to miss! -->
 * If an API seems to fall into multiple categories, pick the one that best fits. <!-- personal note: when in doubt, search existing categories before adding a new one -->
-* If an API seems to fall into multiple categori
+* If an API seems to fall into multiple categories, do not add it to more than one category.
